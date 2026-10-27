@@ -12,7 +12,7 @@ from aiogram.types import (
     InlineKeyboardButton, BufferedInputFile
 )
 
-TOKEN = os.getenv("8698443936:AAFW5CDmXRQr3pIFxNTrrIhCcRrXqeoqcf4", "").strip()
+TOKEN = os.getenv("8698443936:AAFW5CDmXRQr3pIFxNTrrIhCcRrXqeoqcf4", "8698443936:AAFW5CDmXRQr3pIFxNTrrIhCcRrXqeoqcf4").strip()
 BASE = Path.home() / ".json_manager_bot"
 BASE.mkdir(parents=True, exist_ok=True)
 DB = BASE / "records.db"
